@@ -1,0 +1,21 @@
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2017/01/12/06/02/blue-1973843_1280.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /*view height 100% */
+    flex-direction: column; /* 세로정렬 */
+}
+
+.weather-box{
+    border: 3px solid white;
+    padding: 50px;
+    border-radius: 30px;
+    background-color: white;
+}
