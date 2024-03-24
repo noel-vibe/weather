@@ -19,3 +19,7 @@ body{
     border-radius: 30px;
     background-color: white;
 }
+
+.weather-button{
+    margin: 20px;
+}
